@@ -1,60 +1,51 @@
-@media (max-width: 1000px) {
-}
 @media (max-width: 950px) {
   .nav-logo-img img {
     width: 100%;
-    max-width: 200px !important;
+    max-width: 250px !important;
   }
   .nav-link {
     font-size: 18px !important;
     font-weight: 400;
   }
   .nav-book-btn a {
-    width: 100% !important;
-    max-width: 150px !important;
-    font-size: 12px !important;
-    padding: 15px 12px !important;
+    display: none !important;
   }
 }
 @media (max-width: 750px) {
   .nav-logo-img img {
-    max-width: 150px !important;
+    width: 100%;
+    max-width: 200px !important;
   }
   .nav-link {
     font-size: 14px !important;
     font-weight: 400;
   }
   .nav-book-btn a {
-    max-width: 120px !important;
-    font-size: 10px !important;
-    padding: 12px 10px !important;
+    display: none !important;
   }
 }
 @media (max-width: 550px) {
   .nav-logo-img img {
-    max-width: 100px !important;
+    max-width: 150px !important;
   }
   .nav-link {
-    font-size: 10px !important;
+    font-size: 13px !important;
     font-weight: 500;
   }
   .nav-links ul {
     gap: 8px !important;
   }
   .nav-book-btn a {
-    max-width: 120px !important;
-    font-size: 10px !important;
-    padding: 9px 7px !important;
+    display: none !important;
   }
 }
 @media (max-width: 400px) {
   .navigation-container {
     justify-content: space-around !important;
   }
-
   .nav-logo-img img {
     width: 100%;
-    max-width: 110px !important;
+    max-width: 120px !important;
   }
   .nav-links ul {
     justify-content: center !important;
