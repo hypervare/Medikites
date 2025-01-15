@@ -80,6 +80,11 @@ header{
   height: 100%;
   text-align: center;
 }
+.homeBanner-container img{
+  width: 90%;
+  height: 85%;
+  object-fit: contain;
+}
 .decs-content{
   margin: 155px 0;
   display: flex;
@@ -128,6 +133,8 @@ header{
     border-bottom: 3px #007bff solid !important;
     transition: 0.5s;
     margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
   }
   .testimonial-container .swiper .swiper-wrapper .swiper-slide .testimonials .card .card-img{
     width: 20px;
@@ -275,15 +282,18 @@ header{
   justify-content: space-between;
 }
 .lab-test-content{
-  margin-top: 167px;
+  margin-top: 297px;
 }
 .lab-test-content h1{
   color: black;
+  text-align: left;
 }
 .img-bundle{
+  text-align: center;
+}
+.img-res-area{
   display: flex;
-  margin: 30px 0;
-  gap: 78px;
+  justify-content: space-between;
 }
 .contact-container{
   display: flex;
@@ -303,23 +313,40 @@ header{
   margin-bottom: 15px;
 }
 @media screen and (max-width: 1200px){
+  .homeBanner-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
   .decs-content{
     margin-bottom: 0;
   }
+  .lab-test-content{
+    margin-top: 167px;
+  }
   .lab-test-content h1{
       font-size: 35px;
+      text-align: center;
   }
   .lab-test-section{
       display: block;
       padding: 0;
-      margin-top: 167px;
       text-align: center;
   }
   .lab-test-imgs{
-      padding: 0 78px;
+      padding: 0 50px;
   }
   .img-bundle{
-      justify-content: space-between;
+    width: 100%;
+  }
+  .img-bundle img{
+    width: 100%;
+    max-width: 200px;
+    object-fit: contain;
+  }
+  .img-res-area{
+    display: flex;
+    gap: 15%;
   }
   .site-footer .row{
     text-align: center;
@@ -421,4 +448,14 @@ padding: 10px 15px;
 outline: none;
 margin-bottom: 20px;
 box-shadow: 0px 0px 5px 0px #00000036;
+}
+@media (max-width:1201px) {
+  .img-bundle img{
+    max-width: 100px;
+  }
+  
+}
+
+.v-space{
+  height: 145px;
 }

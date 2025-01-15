@@ -53,10 +53,14 @@
     align-items: center !important;
   }
   .nav-link {
-    font-size: 12px !important;
+    font-size: 8px !important;
     font-weight: 500;
   }
   .nav-book-btn a {
     display: none !important;
   }
+  .decs-content{
+   margin-top: 30px !important;
+  }
+
 }
