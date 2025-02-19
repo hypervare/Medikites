@@ -10,8 +10,14 @@
   .nav-book-btn a {
     display: none !important;
   }
+  .about-info-card h1{
+    font-size: 40px !important;
+  }
 }
 @media (max-width: 750px) {
+  .about-info-card h1{
+    font-size: 30px !important;
+  }
   .nav-logo-img img {
     width: 100%;
     max-width: 200px !important;
@@ -38,8 +44,41 @@
   .nav-book-btn a {
     display: none !important;
   }
+  .head-contact-content h1{
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 400px) {
+  .head-contact-content h1{
+    font-size: 15px !important;
+  }
+  .contact-content p{
+    font-size: 10px !important;
+  }
+  .direct-contact-img{
+    padding-top: 10px !important;
+  }
+  .direct-contact-img img{
+    max-width:50px;
+    width: 100%;
+  }
+  .about-info-card h1{
+    font-size: 25px !important;
+  }
+  .direct-contact-container{
+   
+  height: 100%;
+  max-height: 100px;
+  }
+  .direct-contact-content{
+  padding-top: 10px !important;
+  }
+  .test-details-container{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
   .navigation-container {
     justify-content: space-around !important;
   }
@@ -62,5 +101,14 @@
   .decs-content{
    margin-top: 30px !important;
   }
-
+  .lab-test-content{
+    margin-top:50px !important
+  }
+  .whatsapp-icon{
+    top: 94%;
+    max-width: 40px !important;
+  }
+  .blood-test-bg{
+    min-height: 900px !important;
+  }
 }
