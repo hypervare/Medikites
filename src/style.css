@@ -616,11 +616,13 @@ box-shadow: 0px 0px 5px 0px #00000036;
 }
 .direct-contact-container{
   background: linear-gradient(218deg, rgba(7,0,131,0.7203256302521008) 0%, rgba(121,9,22,0.7203256302521008) 65%, rgba(255,0,0,0.7203256302521008) 100%);
-  width: 1069px;
+  max-width: 1069px;
+  width: 100%;
   border-radius: 50rem;
   padding: 0 35px;
   height: 196px;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
 }
 .direct-contact-content{
